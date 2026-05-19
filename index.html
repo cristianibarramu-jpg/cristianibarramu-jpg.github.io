@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulación de Campo Magnético</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background: #f4f4f4;
+      color: #222;
+      text-align: center;
+    }
+
+    h1 {
+      margin-bottom: 10px;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 30px;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+      max-width: 500px;
+    }
+
+    img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    h2 {
+      margin-top: 15px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Simulación</h1>
+
+  <p>
+    Comparación entre el sistema sin campo magnético
+    y con campo magnético aplicado.
+  </p>
+
+  <div class="container">
+
+    <div class="card">
+      <img src="simulacion_mhd_2d_3d_combinada.gif" alt="Sin campo magnético">
+      <h2>Sin campo magnético</h2>
+    </div>
+
+    <div class="card">
+      <img src="simulacion_mhd_estable_2d_3d.gif" alt="Con campo magnético">
+      <h2>Con campo magnético</h2>
+    </div>
+
+  </div>
+
+</body>
+</html>
